@@ -1,0 +1,12 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to top left, rgb(231, 231, 231), #fff);
+}
