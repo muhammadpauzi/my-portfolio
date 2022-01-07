@@ -10,3 +10,11 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(to top left, rgb(231, 231, 231), #fff);
 }
+
+.green-shadow {
+  transition: box-shadow 0.3s;
+}
+
+.green-shadow:hover {
+  box-shadow: 0 5px 10px rgb(16, 185, 129, 0.4);
+}
