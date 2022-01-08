@@ -2,58 +2,138 @@
     {
         "title": "Programming Languages",
         "data": [
-            "JavaScript",
-            "PHP",
-            "Python",
-            "TypeScript",
-            "HTML (Markup Language",
-            "CSS (Scripting"
+            {
+                "name": "JavaScript", 
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' />"},
+            {
+                "name": "PHP",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' />"
+            },
+            {
+                "name": "Python",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' />"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' />"
+            },
+            {
+                "name": "HTML (Markup Language)",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' />"
+            },
+            {
+                "name": "CSS (Scripting)",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' />"
+            }
         ]
     },
     {
         "title": "Front-end Technologies",
         "data": [
-            "SCSS",
-            "TailwindCSS",
-            "Bootstrap",
-            "SvelteJS & SvelteKIT",
-            "ReactJS"
+            {
+                "name": "SASS",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' />"
+            },
+            {
+                "name": "TailwindCSS",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' />"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' />"
+            },
+            {
+                "name": "SvelteJS & SvelteKIT",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' />"
+            },
+            {
+                "name": "ReactJS",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' />"
+            }
         ]
     },
     {
         "title": "Back-end Technologies",
         "data": [
-            "NodeJS",
-            "ExpressJS",
-            "Laravel",
-            "Codeigniter",
-            "Django",
-            "Flask"
+            {
+                "name": "NodeJS",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' />"
+            },
+            {
+                "name": "ExpressJS",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' />"
+            },
+            {
+                "name": "Laravel",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg' />"
+            },
+            {
+                "name": "CodeIgniter",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg' />"
+            },
+            {
+                "name": "Django",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg' />"
+            },
+            {
+                "name": "Flask",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg' />"
+            }
         ]
     },
     {
         "title": "Databases",
         "data": [
-            "MySQL",
-            "MongoDB",
-            "SQLite"
+            {
+                "name": "MySQL",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' />"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' />"
+            },
+            {
+                "name": "SQLite",
+                "icon": null
+            }
         ]
     },
     {
         "title": "Tools",
         "data": [
-            "Git",
-            "GitHub",
-            "Visual Studio Code",
-            "Postman"
+            {
+                "name": "Git",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' />"
+            }, 
+            {
+                "name": "GitHub",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' />"
+            }, 
+            {
+                "name": "Visual Studio Code",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg' />"
+            }, 
+            {
+                "name": "Postman",
+                "icon": null
+            }
         ]
     },
     {
         "title": "Design Tools",
         "data": [
-            "AdobeXD",
-            "Figma",
-            "Adobe Ilustrator"
+            {
+                "name": "AdobeXD",
+                "icon": null
+            },
+            {
+                "name": "Figma",
+                "icon": "<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' />"
+            },
+            {
+                "name": "Adobe Ilustrator",
+                "icon": null
+            }
         ]
     }
 ]
