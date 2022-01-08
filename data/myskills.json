@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Programming Languages",
+        "data": [
+            "JavaScript",
+            "PHP",
+            "Python",
+            "TypeScript",
+            "HTML (Markup Language",
+            "CSS (Scripting"
+        ]
+    },
+    {
+        "title": "Front-end Technologies",
+        "data": [
+            "SCSS",
+            "TailwindCSS",
+            "Bootstrap",
+            "SvelteJS & SvelteKIT",
+            "ReactJS"
+        ]
+    },
+    {
+        "title": "Back-end Technologies",
+        "data": [
+            "NodeJS",
+            "ExpressJS",
+            "Laravel",
+            "Codeigniter",
+            "Django",
+            "Flask"
+        ]
+    },
+    {
+        "title": "Databases",
+        "data": [
+            "MySQL",
+            "MongoDB",
+            "SQLite"
+        ]
+    },
+    {
+        "title": "Tools",
+        "data": [
+            "Git",
+            "GitHub",
+            "Visual Studio Code",
+            "Postman"
+        ]
+    },
+    {
+        "title": "Design Tools",
+        "data": [
+            "AdobeXD",
+            "Figma",
+            "Adobe Ilustrator"
+        ]
+    }
+]
