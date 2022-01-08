@@ -1,7 +1,7 @@
 export const getSkillsList = ({ title, data } = { title: "", data: [] }) => {
   data = data.map(
     (d) =>
-      `<li class="">${
+      `<li>${
         d.icon
           ? `<div class="inline-block h-7 w-7 pr-2 items-center"><img class="inline-block" src="${d.icon}"/></div>`
           : ""
