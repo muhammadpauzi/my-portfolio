@@ -5,6 +5,7 @@ import {
   mobileMenu,
   mobileMenuToggleButton,
   mySkillsListGroup,
+  preloader,
 } from "./elements.js";
 import { fetchData } from "./utils.js";
 
@@ -34,4 +35,9 @@ const showMySkillsList = async () => {
   mySkillsListGroup.innerHTML = mySkillsList;
 };
 
-await showMySkillsList();
+const main = async () => {
+  await showMySkillsList();
+  preloader.classList.add("hidden");
+};
+
+main();

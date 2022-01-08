@@ -73,32 +73,42 @@
         </div>
     </nav>
 
-<!-- Mobile menu, show/hide based on menu state. -->
-<div class="hidden sm:hidden w-full" id="mobileMenu">
-    <div>
-        <ul class="space-y-2 w-full text-md leading-6 font-semibold text-gray-700 px-10">
-            <li>
-                <a href="#home" class="hover:text-green-500 py-3 rounded px-5 transition block">Home</a>
-            </li>
-            <li>
-                <a href="#about" class="hover:text-green-500 py-3 rounded px-5 transition block">About</a>
-            </li>
-            <li>
-                <a href="#myskills" class="hover:text-green-500 py-3 rounded px-5 transition block">My Skills</a>
-            </li>
-            <li>
-                <a href="#projects" class="hover:text-green-500 py-3 rounded px-5 transition block">Projects</a>
-            </li>
-            <li>
-                <a href="#letstalk"
-                    class="px-4 py-3 mt-4 text-center font-bold bg-green-500 hover:bg-green-600 rounded text-white transition block">Let's
-                    Talk</a>
-            </li>
-        </ul>
-    </div>
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="hidden sm:hidden w-full" id="mobileMenu">
+        <div>
+            <ul class="space-y-2 w-full text-md leading-6 font-semibold text-gray-700 px-10">
+                <li>
+                    <a href="#home" class="hover:text-green-500 py-3 rounded px-5 transition block">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="hover:text-green-500 py-3 rounded px-5 transition block">About</a>
+                </li>
+                <li>
+                    <a href="#myskills" class="hover:text-green-500 py-3 rounded px-5 transition block">My Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="hover:text-green-500 py-3 rounded px-5 transition block">Projects</a>
+                </li>
+                <li>
+                    <a href="#letstalk"
+                        class="px-4 py-3 mt-4 text-center font-bold bg-green-500 hover:bg-green-600 rounded text-white transition block">Let's
+                        Talk</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <a href="#home" class="rounded-full bg-green-500 text-white fixed bottom-10 right-10 h-12 w-12 z-50 flex items-center justify-center green-shadow">
+    <div class="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden bg-gray-100 flex flex-col items-center justify-center" id="preloader">
+        <div class="relative">
+            <div class="preloader loader h-20 w-20 bg-white rounded-full border-2 border-gray-200">
+            </div>
+            <div class="preloader-img absolute right-0 left-0 text-center inline-block w-10 h-10">
+                <img src="./assets/images/logo.png" alt="My Logo">
+            </div>
+        </div>
+    </div>
+
+    <a href="#home" class="rounded-full bg-green-500 text-white fixed bottom-10 right-10 h-12 w-12 z-40 flex items-center justify-center green-shadow">
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#FFF"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
         </div>
