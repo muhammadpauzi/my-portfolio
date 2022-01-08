@@ -1,11 +1,14 @@
-const mobileMenuToggleButton = document.getElementById(
-  "mobileMenuToggleButton"
-);
-const mobileMenu = document.getElementById("mobileMenu");
+import { getSkillsList } from "./components.js";
+import {
+  closeIcon,
+  hamBarIcon,
+  mobileMenu,
+  mobileMenuToggleButton,
+  mySkillsListGroup,
+} from "./elements.js";
+import { fetchData } from "./utils.js";
 
-const hamBarIcon = mobileMenuToggleButton.querySelector("#hamBarIcon");
-const closeIcon = mobileMenuToggleButton.querySelector("#closeIcon");
-
+// handle mobile menu nav
 mobileMenuToggleButton.addEventListener("click", function () {
   if (mobileMenu.classList.toggle("hidden")) {
     // mobileMenu closed/hidden
@@ -17,3 +20,18 @@ mobileMenuToggleButton.addEventListener("click", function () {
     hamBarIcon.setAttribute("class", "hidden h-6 w-6");
   }
 });
+
+const showMySkillsList = async () => {
+  const { data } = await fetchData({
+    url: "/data/myskills.json",
+  });
+
+  let mySkillsList = "";
+  data.map((d) => {
+    mySkillsList += getSkillsList(d);
+  });
+
+  mySkillsListGroup.innerHTML = mySkillsList;
+};
+
+await showMySkillsList();
